@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--this is Result output area-->
+    <LinearLayout
+        android:background="#dcdcdc"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/textViewResult"
+            android:textSize="20sp"
+            android:text="Result here"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <!--this is K-map area-->1
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:background="#ffffff"
+        android:weightSum="37">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="85dp"
+                android:text="C'D'"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:text="C'D"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:text="CD"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="34dp"
+                android:text="CD'"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="34"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="27">
+            <LinearLayout
+                android:weightSum="4"
+                android:orientation="horizontal"
+                android:layout_weight="7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <TextView
+                    android:text="\n  A'B'"
+                    android:textSize="30sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="\n  A'B"
+                    android:textSize="30sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="\n  AB"
+                    android:textSize="30sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="\n  AB'"
+                    android:textSize="30sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="4"
+                android:layout_weight="27"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <LinearLayout
+                    android:weightSum="4"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton0"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton12"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton13"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton9"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton15"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton11"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton14"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+
+                    <ToggleButton
+                        android:textSize="25sp"
+                        android:id="@+id/toggleButton10"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textOff="0"
+                        android:textOn="1" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <!--this is Enter button area-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#dcdcdc"
+        android:orientation="horizontal"
+        android:weightSum="11">
+        <ImageButton
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="55dp"
+            android:id="@+id/buttonResult"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="6.55"
+            android:background="@null"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/enter" />
+        <ImageButton
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="55dp"
+            android:id="@+id/bt_reset"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="6.55"
+            android:background="@null"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/reset" />
+    </LinearLayout>
+
+</LinearLayout>

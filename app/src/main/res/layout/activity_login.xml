@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton
+    android:layout_marginTop="100dp"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/bt_start_id"
+    android:src="@drawable/start1"
+        android:scaleType="fitXY"
+    android:layout_width="250dp"
+        android:background="@null"
+    android:layout_height="80dp" />
+    <ImageButton
+        android:layout_below="@+id/bt_start_id"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bt_readme_id"
+        android:background="@null"
+        android:src="@drawable/readmore"
+        android:scaleType="fitXY"
+        android:layout_width="250dp"
+        android:layout_height="80dp" />
+    <ImageButton
+        android:scaleType="fitXY"
+        android:src="@drawable/exit1"
+        android:layout_marginTop="25dp"
+        android:id="@+id/bt_exit_id"
+        android:background="@null"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/bt_readme_id"
+        android:layout_alignLeft="@+id/bt_readme_id"
+        android:layout_alignStart="@+id/bt_readme_id" />
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:layout_centerHorizontal="true"
+        android:text="CTRR Nhóm 4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <Space
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/bt_start_id"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/bt_start_id"
+        android:visibility="visible"
+        android:id="@+id/space" />
+
+</RelativeLayout>
